@@ -1,0 +1,51 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#header-container,
+#info-container {
+  background-color: #99c84a;
+  color: white;
+}
+
+#menu-container .myform{
+  margin-left: 50px;
+}
+
+input.form-control:focus {
+  border-color: #99c84a;
+}
+
+.form-control {
+  width: 75vw;
+}
+
+.myIcon {
+  display: none;
+}
+
+.myLogin {
+  display: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+#carousel-container img {
+  max-height: 500px;
+}
+
+#footer-container {
+  background-color: #1c3643;
+  color: white;
+}
+
+#footer-container .form-control {
+  width: inherit;
+}
+
+#footer-container .nav-link {
+  color: white;
+}
