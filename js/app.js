@@ -11,3 +11,15 @@
     }, false);
   }, false);
 }());
+
+function mostrarModal () {
+  const noMostrarModal = JSON.parse(localStorage.noMostrarModal)
+
+  if (!noMostrarModal) {
+    $('#modalOferta').modal('show')
+  }
+
+  $('#btnNoRegistrar').click(function (ev) {
+    localStorage.noMostrarModal = true
+  })
+}

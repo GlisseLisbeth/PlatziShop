@@ -16,10 +16,6 @@ input.form-control:focus {
   border-color: #99c84a;
 }
 
-.form-control {
-  width: 75vw;
-}
-
 .myIcon {
   display: none;
 }
@@ -48,4 +44,10 @@ button:focus {
 
 #footer-container .nav-link {
   color: white;
+}
+
+@media (max-width: 768px) {
+  #menu-container .form-control {
+    width: inherit;
+  } 
 }
