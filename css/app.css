@@ -46,6 +46,18 @@ button:focus {
   color: white;
 }
 
+
+#filtros-container .list-group-item-action.active {
+  background-color: #99c84a;
+  border-color: #99c84a;
+}
+
+#productos-contianer .form-check-label {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+
 @media (max-width: 768px) {
   #menu-container .form-control {
     width: inherit;
