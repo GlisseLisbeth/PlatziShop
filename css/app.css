@@ -57,6 +57,21 @@ button:focus {
   margin-bottom: 0;
 }
 
+#paginatorContainer .page-item.disabled .page-link {
+  color: gray;
+}
+
+#paginatorContainer .page-item.active .page-link {
+  background-color: #99c84a;
+  border-color: #99c84a;
+  color: white;
+}
+
+#paginatorContainer .page-link {
+  color: #99c84a;
+}
+
+
 
 @media (max-width: 768px) {
   #menu-container .form-control {
